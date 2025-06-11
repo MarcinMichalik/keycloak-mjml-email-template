@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2018", /* Specify ECMAScript target version */
+    "module": "CommonJS", /* Specify module system */
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@email/*": ["src/email/*"],
+      "@plugins/*": ["./plugins/*"],
+    },
+    "types": ["node"]
+  },
+  "include": ["src/**/*", "scripts/**/*", "plugins/**/*"],
+  "exclude": ["node_modules", "dist"],
+}

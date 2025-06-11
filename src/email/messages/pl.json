@@ -1,0 +1,86 @@
+{
+  "emailTestSubject": "[KEYCLOAK] - SMTP wiadomość testowa",
+  "emailTestBody": "To jest testowa wiadomość",
+  "emailTestBodyHtml": "<p>To jest testowa wiadomość</p>",
+
+  "emailVerificationSubject": "Potwierdź swój adres e-mail",
+  "emailVerificationBody": "Witaj!\n\nOtrzymaliśmy prośbę o utworzenie konta w systemie {2}.\nAby zakończyć rejestrację, potwierdź swój adres e-mail, klikając w poniższy link:\n{0}\n\nLink wygaśnie za {3}.\n\nJeśli to nie Ty inicjowałeś(-aś) rejestrację, możesz zignorować tę wiadomość.\n\nPozdrawiamy,  \nZespół kuplo",
+  "emailVerificationIntro": "<p><strong>Witaj!</strong></p> <p>Otrzymaliśmy prośbę o utworzenie konta w systemie <strong>{0}</strong>. Aby zakończyć rejestrację, potwierdź swój adres e-mail, klikając w poniższy link:</p>",
+  "emailVerificationButton": "Potwierdź adres e-mail",
+  "emailVerificationOutro": "<p>Link wygaśnie za <strong>{2}.</strong></p><p>Jeśli to nie Ty inicjowałeś(-aś) rejestrację, możesz zignorować tę wiadomość.</p><p>Pozdrawiamy, <br /> Zespół {0}</p>",
+
+  "emailUpdateConfirmationSubject": "Potwierdzenie zmiany adresu e-mail",
+  "emailUpdateConfirmationBody": "Witaj!\n\nTwój adres e-mail został zmieniony na {1} w ramach Twojego konta na platformie {2}.\nAby zatwierdzić tę zmianę, kliknij w poniższy link:\n{0}\n\nLink wygaśnie za {3}.\n\nJeśli nie zmieniałeś(-aś) swojego adresu e-mail, zignoruj ten e-mail.\n\nPozdrawiamy,  \nZespół kuplo",
+  "emailUpdateConfirmationIntro": "<p><strong>Witaj!</strong></p> <p>Twój adres e-mail został zmieniony na <strong>{1}</strong> w ramach Twojego konta na platformie {2}.</p><p>Aby zatwierdzić tę zmianę, kliknij w poniższy link:</p>",
+  "emailUpdateConfirmationButton": "Potwierdź adres e-mail",
+  "emailUpdateConfirmationOutro": "<p>Link wygaśnie za <strong>{3}.</strong></p><p>Jeśli nie zmieniałeś(-aś) swojego adresu e-mail, zignoruj ten e-mail.</p><p>Pozdrawiamy, <br /> Zespół {0}</p>",
+
+  "emailVerificationBodyCode": "Witaj!\n\nAby zweryfikować swój adres e-mail, użyj poniższego kodu weryfikacyjnego:\n\nKod weryfikacyjny: {0}\n\nJeśli nie próbowałeś(-aś) zweryfikować swojego adresu e-mail, zignoruj ten e-mail.\n\nPozdrawiamy,  \nZespół kuplo",
+  "emailVerificationCodeIntro": "<p><strong>Witaj!</strong></p><p>Aby zweryfikować swój adres e-mail, użyj poniższego kodu weryfikacyjnego:</p>",
+  "emailVerificationCodeCode": "<h2>Kod weryfikacyjny:</h2><h1>{0}</h1>",
+  "emailVerificationCodeOutro": "<p>Jeśli nie próbowałeś zweryfikować swojego adresu e-mail, zignoruj ten e-mail.</p><p>Pozdrawiamy, <br /> Zespół kuplo</p>",
+
+  "eventLoginErrorSubject": "Nieudana próba logowania",
+  "eventLoginErrorBody": "Witaj!\n\nW dniu {0} odnotowaliśmy nieudaną próbę logowania na Twoje konto z adresu IP {1}.\n\nJeśli to Ty próbowałeś(-aś) się zalogować, możesz zignorować tę wiadomość.  \nJeśli jednak nie rozpoznajesz tej aktywności, zalecamy natychmiastową zmianę hasła oraz weryfikację ustawień bezpieczeństwa konta.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventLoginErrorBodyHtml": "<p><strong>Witaj!</strong></p> <p>W dniu {0} odnotowaliśmy nieudaną próbę logowania na Twoje konto z adresu IP {1}.</p> <p>Jeśli to Ty próbowałeś się zalogować, możesz zignorować tę wiadomość.</p> <p>Jeśli jednak nie rozpoznajesz tej aktywności, zalecamy natychmiastową zmianę hasła oraz weryfikację ustawień bezpieczeństwa konta.</p> <p>Pozdrawiamy, <br /> Zespół kuplo</p>",
+
+  "eventRemoveCredentialSubject": "Poświadczenie usunięte z Twojego konta",
+  "eventRemoveCredentialBody": "Witaj!\n\nInformujemy, że jedno z poświadczeń powiązanych z Twoim kontem zostało usunięte.  \nZdarzenie miało miejsce w dniu {1} z adresu IP {2}.\n\nJeśli to Ty dokonałeś(-aś) tej zmiany – możesz zignorować tę wiadomość.  \nJeśli jednak nie rozpoznajesz tej aktywności, zalecamy natychmiastową zmianę hasła oraz weryfikację ustawień bezpieczeństwa konta.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventRemoveCredentialBodyHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że jedno z poświadczeń powiązanych z Twoim kontem zostało usunięte.</p><p>Zdarzenie miało miejsce w dniu {1} z adresu IP {2}.</p><p>Jeśli to Ty dokonałeś tej zmiany – możesz zignorować tę wiadomość.</p><p>Jeśli jednak nie rozpoznajesz tej aktywności, zalecamy natychmiastową zmianę hasła oraz weryfikację ustawień bezpieczeństwa konta.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventRemoveTotpSubject": "Usunięto drugi czynnik uwierzytelniania z Twojego konta",
+  "eventRemoveTotpBody": "Witaj!\n\nZ Twojego konta został usunięty drugi czynnik uwierzytelniania (2FA).  \nZdarzenie miało miejsce w dniu {0} z adresu IP {1}.\n\nJeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.  \nJeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventRemoveTotpBodyHtml": "<p><strong>Witaj!</strong></p><p>Z Twojego konta został usunięty drugi czynnik uwierzytelniania (TOTP).</p><p>Zdarzenie miało miejsce w dniu {0} z adresu IP {1}.</p><p>Jeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.</p><p>Jeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventUpdateCredentialSubject": "Zmieniono poświadczenie powiązane z Twoim kontem",
+  "eventUpdateCredentialBody": "Witaj!\n\nInformujemy, że jedno z poświadczeń powiązanych z Twoim kontem zostało zaktualizowane.  \nZdarzenie miało miejsce w dniu {1} z adresu IP {2}.\n\nJeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.  \nJeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventUpdateCredentialBodyHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że jedno z poświadczeń powiązanych z Twoim kontem zostało zaktualizowane.</p><p>Zdarzenie miało miejsce w dniu {1} z adresu IP {2}.</p><p>Jeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.</p><p>Jeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventUpdatePasswordSubject": "Hasło do Twojego konta zostało zmienione",
+  "eventUpdatePasswordBody": "Witaj!\n\nInformujemy, że hasło powiązane z Twoim kontem zostało zmienione.  \nZdarzenie miało miejsce w dniu {0} z adresu IP {1}.\n\nJeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.  \nJeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventUpdatePasswordBodyHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że hasło powiązane z Twoim kontem zostało zmienione.</p><p>Zdarzenie miało miejsce w dniu {0} z adresu IP {1}.</p><p>Jeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.</p><p>Jeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventUpdateTotpSubject": "Zmieniono drugi czynnik uwierzytelniania",
+  "eventUpdateTotpBody": "Witaj!\n\nInformujemy, że drugi czynnik uwierzytelniania powiązany z Twoim kontem został zaktualizowany.  \nZdarzenie miało miejsce w dniu {0} z adresu IP {1}.\n\nJeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.  \nJeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventUpdateTotpBodyHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że drugi czynnik uwierzytelniania powiązany z Twoim kontem został zaktualizowany.</p><p>Zdarzenie miało miejsce w dniu {0} z adresu IP {1}.</p><p>Jeśli to była świadoma zmiana z Twojej strony – nie musisz podejmować żadnych działań.</p><p>Jeśli jednak nie rozpoznajesz tej operacji, zalecamy jak najszybsze zabezpieczenie konta – np. zmianę hasła lub kontakt z naszym zespołem wsparcia.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventUserDisabledByPermanentLockoutSubject": "Twoje konto zostało zablokowane",
+  "eventUserDisabledByPermanentLockoutBody": "Witaj!\n\nInformujemy, że Twoje konto zostało zablokowane z powodu wielokrotnych nieudanych prób logowania.  \nZdarzenie miało miejsce w dniu {0}.\n\nJeśli to Ty próbowałeś(-aś) się zalogować – skontaktuj się z naszym zespołem wsparcia, aby odblokować konto.  \nJeśli jednak nie rozpoznajesz tej operacji, może to świadczyć o próbie nieautoryzowanego dostępu – również w tym przypadku zachęcamy do niezwłocznego kontaktu.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventUserDisabledByPermanentLockoutHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że Twoje konto zostało zablokowane z powodu wielokrotnych nieudanych prób logowania.</p><p>Zdarzenie miało miejsce w dniu {0}.</p><p>Jeśli to Ty próbowałeś(-aś) się zalogować – skontaktuj się z naszym zespołem wsparcia, aby odblokować konto.</p><p>Jeśli jednak nie rozpoznajesz tej operacji, może to świadczyć o próbie nieautoryzowanego dostępu – również w tym przypadku zachęcamy do niezwłocznego kontaktu.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "eventUserDisabledByTemporaryLockoutSubject": "Twoje konto zostało tymczasowo zablokowane",
+  "eventUserDisabledByTemporaryLockoutBody": "Witaj!\n\nInformujemy, że dostęp do Twojego konta został tymczasowo zablokowany z powodu wielu nieudanych prób logowania lub podejrzanej aktywności.  \nZdarzenie miało miejsce w dniu {0}.\n\nJeśli to była Twoja aktywność – możesz poczekać na automatyczne odblokowanie konta po określonym czasie.  \nJeśli jednak nie rozpoznajesz tej sytuacji, skontaktuj się z naszym zespołem wsparcia.\n\nPozdrawiamy,  \nZespół kuplo",
+  "eventUserDisabledByTemporaryLockoutHtml": "<p><strong>Witaj!</strong></p><p>Informujemy, że dostęp do Twojego konta został tymczasowo zablokowany z powodu wielu nieudanych prób logowania lub podejrzanej aktywności.</p><p>Zdarzenie miało miejsce w dniu {0}.</p><p>Jeśli to była Twoja aktywność – możesz poczekać na automatyczne odblokowanie konta po określonym czasie.</p><p>Jeśli jednak nie rozpoznajesz tej sytuacji, skontaktuj się z naszym zespołem wsparcia.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "identityProviderLinkSubject": "Połącz swoje konto z dostawcą tożsamości",
+  "identityProviderLinkBody": "Witaj!\n\nOtrzymaliśmy prośbę o połączenie Twojego konta w systemie {1} z kontem dostawcy tożsamości {0} (użytkownik: {2}).\nAby potwierdzić to połączenie, kliknij poniższy link: {3}\nLink jest ważny do {5}.\nJeśli to nie Ty inicjowałeś(-aś) tę akcję, zignoruj tę wiadomość.\n\nPozdrawiamy,\nZespół kuplo",
+  "identityProviderLinkBodyIntro": "<p><strong>Witaj!</strong></p><p>Otrzymaliśmy prośbę o połączenie Twojego konta w systemie <strong>{1}</strong> z kontem dostawcy tożsamości <strong>{0}</strong> (użytkownik: <strong>{2}</strong>).</p><p>Aby potwierdzić to połączenie, kliknij poniższy link:</p>",
+  "identityProviderLinkBodyButton": "Potwierdź połączenie",
+  "identityProviderLinkBodyOutro": "<p>Link jest ważny do <strong>{5}.</strong></p><p>Jeśli to nie Ty inicjowałeś(-aś) tę akcję, zignoruj tę wiadomość.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "passwordResetSubject": "Prośba o zresetowanie hasła",
+  "passwordResetBody": "Witaj!\n\nOtrzymaliśmy prośbę o zresetowanie hasła do Twojego konta w systemie {2}.\nAby ustawić nowe hasło, kliknij poniższy link:\n{0}\nLink będzie aktywny do {3}.\nJeśli to nie Ty inicjowałeś(-aś) tę operację, zignoruj tę wiadomość. Twoje hasło nie zostanie zmienione, jeśli nie klikniesz linku.\n\nPozdrawiamy,\nZespół kuplo",
+  "passwordResetBodyIntro": "<p><strong>Witaj!</strong></p><p>Otrzymaliśmy prośbę o zresetowanie hasła do Twojego konta w systemie <strong>{2}</strong>.</p><p>Aby ustawić nowe hasło, kliknij poniższy link:</p>",
+  "passwordResetBodyButton": "Zresetuj hasło",
+  "passwordResetBodyOutro": "<p>Link będzie aktywny do <strong>{3}.</strong></p><p>Jeśli to nie Ty inicjowałeś(-aś) tę operację, zignoruj tę wiadomość. Twoje hasło nie zostanie zmienione, jeśli nie klikniesz linku.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+  "executeActionsSubject": "Wymagane działania na Twoim koncie",
+  "executeActionsBody": "Witaj!\n\nW systemie {2} wymagane są działania, które musisz wykonać, aby kontynuować korzystanie z konta.  \nKliknij poniższy link, aby przejść do swojego konta i wykonać wymagane akcje: {0}  \nLink będzie aktywny do {3}  \nJeśli nie rozpoznajesz tej wiadomości, możesz ją zignorować.\n\nPozdrawiamy,  \nZespół kuplo\n",
+  "executeActionsBodyIntro": "<p><strong>Witaj!</strong></p><p>W systemie <strong>{2}</strong> wymagane są działania, które musisz wykonać, aby kontynuować korzystanie z konta.</p><p>Kliknij poniższy link, aby przejść do swojego konta i wykonać wymagane akcje:</p>",
+  "executeActionsBodyButton": "Przejdź do konta",
+  "executeActionsBodyOutro": "<p>Link będzie aktywny do <strong>{3}.</strong></p><p>Jeśli nie rozpoznajesz tej wiadomości, możesz ją zignorować.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+
+  "orgInviteSubject": "Zaproszenie do organizacji {0}",
+  "orgInviteBody": "Witaj!\n\nOtrzymałeś(-aś) zaproszenie do dołączenia do organizacji {3} w systemie {2}.\nAby zaakceptować zaproszenie i utworzyć konto lub zalogować się, kliknij poniższy link: {0}.\nLink jest ważny do {4}.\nJeśli nie spodziewasz się tego zaproszenia, możesz zignorować tę wiadomość.\n\nPozdrawiamy,\nZespół kuplo",
+  "orgInviteBodyPersonalized": "Witaj!\nOtrzymałeś(-aś) zaproszenie do dołączenia do organizacji {3} w systemie {2}.\nAby zaakceptować zaproszenie i utworzyć konto lub zalogować się, kliknij poniższy link: {0}.\nLink jest ważny do {4}.\nJeśli nie spodziewasz się tego zaproszenia, możesz zignorować tę wiadomość.\nPozdrawiamy,\nZespół kuplo",
+  "orgInviteBodyIntro": "<p><strong>Witaj!</strong></p><p>Otrzymałeś(-aś) zaproszenie do dołączenia do organizacji <strong>{3}</strong> w systemie <strong>{2}</strong>.</p><p>Aby zaakceptować zaproszenie i utworzyć konto lub zalogować się, kliknij poniższy link:</p>",
+  "orgInviteBodyButton": "Zaakceptuj zaproszenie",
+  "orgInviteBodyOutro": "<p>Link jest ważny do <strong>{4}.</strong></p><p>Jeśli nie spodziewasz się tego zaproszenia, możesz zignorować tę wiadomość.</p><p>Pozdrawiamy,<br/>Zespół kuplo</p>",
+
+
+  "linkExpirationFormatter.timePeriodUnit.seconds": "{0,choice,0#sekund|1#sekunda|2#sekundy|2<sekunda}",
+  "linkExpirationFormatter.timePeriodUnit.minutes": "{0,choice,0#minut|1#minuta|2#minuty|2<minut}",
+  "linkExpirationFormatter.timePeriodUnit.hours": "{0,choice,0#godzin|1#godzina|2#godzin|2<godzina}",
+  "linkExpirationFormatter.timePeriodUnit.days": "{0,choice,0#dni|1#dzień|2#godzin|2<dzień}"
+}
